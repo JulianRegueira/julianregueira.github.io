@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Data Visualization Dashboard</h1>
+  <p>Sube tus archivos y analiza los datos.</p>
+
+  <!-- Formulario para subir archivo -->
+  <form id="uploadForm">
+    <input type="file" id="fileInput" accept=".csv, .xlsx" required>
+    <button type="submit">Subir Archivo</button>
+  </form>
+
+  <!-- Sección de visualización -->
+  <div id="chartContainer">
+    <!-- Aquí se insertarán los gráficos más adelante -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
